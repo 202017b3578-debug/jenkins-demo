@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Checking out code...' // test webhook
-                checkout scm // test2 webhook
+                checkout scm // test2 webhook..
             }
         }
         stage('Build') {
